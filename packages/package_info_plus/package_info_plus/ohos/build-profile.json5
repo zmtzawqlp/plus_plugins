@@ -1,0 +1,42 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/zmt/.ohos/config/auto_debug_ohos_dev.fluttercommunity.plus.package_info_plus_30086000613192064.cer",
+          "storePassword": "0000001AEFA0B5B8003203CE8A405FE20614EBD9325792EB41CD524A0D6C91E3947BA709F3370A3E9592",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A47CC3F6F81D019CCB26D976E3B8F5E742EC0D7E04D2973D2EC28BDD54F5E78795262699E5F34",
+          "profile": "/Users/zmt/.ohos/config/auto_debug_ohos_dev.fluttercommunity.plus.package_info_plus_30086000613192064.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/zmt/.ohos/config/auto_debug_ohos_dev.fluttercommunity.plus.package_info_plus_30086000613192064.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "4.0.0(10)",
+        "compatibleSdkVersion": "4.0.0(10)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "package_info_plus",
+      "srcPath": "./package_info_plus"
+    }
+  ]
+}

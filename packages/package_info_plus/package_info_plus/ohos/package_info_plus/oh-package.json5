@@ -1,0 +1,12 @@
+{
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@ohos/flutter_ohos": "file:./libs/flutter_ohos.har"
+  },
+  "author": "",
+  "name": "package_info_plus",
+  "description": "Please describe the basic information.",
+  "main": "index.ets",
+  "version": "1.0.0",
+  "dependencies": {}
+}

@@ -22,7 +22,9 @@ flutter:
         fileName: src/package_info_plus_web.dart
       windows:
         dartPluginClass: PackageInfoPlusWindowsPlugin
-
+      ohos:
+        package: dev.fluttercommunity.plus.packageinfo
+        pluginClass: PackageInfoPlusPlugin
 dependencies:
   ffi: ^2.0.1
   flutter:
